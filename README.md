@@ -6,31 +6,31 @@ schtasks /create /tn "End of the work" /tr "shutdown -s" /sc ONCE /st "17:15:00"
 ```
 
 # Control panel tool Command
-# Network Connections
+### Network Connections
 ```bash
 ncpa.cpl
 ```
-# Windows Defender Firewall
+### Windows Defender Firewall
 ```bash
 firewall.cpl
 ```
-# User Accounts (Users)
+### User Accounts (Users)
 ```bash
 netplwiz
 ```
-# About Windows
+### About Windows
 ```bash
 winver
 ```
-# Disk Management
+### Disk Management
 ```bash
 diskmgmt.msc
 ```
-# Internet Properties
+### Internet Properties
 ```bash
 inetcpl.cpl
 ```
-# System Properties
+### System Properties
 ```bash
 sysdm.cpl
 ```
