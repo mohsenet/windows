@@ -1,38 +1,7 @@
-# windows
-Essential Windows commands and shortcuts to access and work efficiently.
+# Windows
 
-### Create schedule to shutdown with Powershell in windows
-```bash
-schtasks /create /tn "End of the work" /tr "shutdown -s" /sc ONCE /st "17:15:00"
-```
+- [phi3](https://github.com/mohsenet/windows/tree/main/phi3)
+- [shortcuts](https://github.com/mohsenet/windows/tree/main/shortcuts)
 
-# Control panel tool Command
-### Network Connections
-```bash
-ncpa.cpl
-```
-### Windows Defender Firewall
-```bash
-firewall.cpl
-```
-### User Accounts (Users)
-```bash
-netplwiz
-```
-### About Windows
-```bash
-winver
-```
-### Disk Management
-```bash
-diskmgmt.msc
-```
-### Internet Properties
-```bash
-inetcpl.cpl
-```
-### System Properties
-```bash
-sysdm.cpl
-```
-
+If you can find useful git command here, I will glad about that.
+~                                                                
