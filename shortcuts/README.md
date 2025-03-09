@@ -35,4 +35,8 @@ inetcpl.cpl
 ```bash
 sysdm.cpl
 ```
+### System Information
+```bash
+msinfo32
+```
 
