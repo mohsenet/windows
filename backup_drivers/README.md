@@ -7,7 +7,7 @@ dism /online /export-driver /destination:D:\DriverBackup
 ```
 
 
-# Restore drivers
+### Restore drivers
 ```powershell
 pnputil /add-driver D:\DriverBackup\*.inf /subdirs /install
 ```
