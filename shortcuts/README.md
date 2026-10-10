@@ -39,4 +39,27 @@ sysdm.cpl
 ```bash
 msinfo32
 ```
+```bash
+dxdiag
+```
+### Disk Managment
+```bash
+diskmgmt.msc
+```
+### Programs and Features
+```bash
+appwiz.cpl
+```
+### Task Scheduler
+```bash
+taskschd.msc
+```
+### Device Manager
+```bash
+devmgmt.msc
+```
+### Windows Settings
+```bash
+ms-settings:advanced-apps
+```
 
