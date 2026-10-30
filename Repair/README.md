@@ -6,29 +6,29 @@ install.wim
 install.esd
 ```
 
-[]
+[1]
 Insert Windows ISO or bootable windows flash
 
 
-[]
+[2]
 Index number of Windows
 ```bash
 DISM /Get-WimInfo /WimFile:X:\sources\install.wim
 ```
 
-[]
+[3]
 If install.wim
 ```bash
 DISM /Online /Cleanup-Image /RestoreHealth /Source:WIM:X:\sources\install.wim:1 /LimitAccess
 ```
 
-[]
+[4]
 If install.esd
 ```bash
 DISM /Online /Cleanup-Image /RestoreHealth /Source:X:\sources\install.esd /LimitAccess
 ```
 
-[]
+[5]
 Finaly
 ```bash
 sfc /scannow
