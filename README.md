@@ -6,5 +6,6 @@
 - [Repair](https://github.com/mohsenet/windows/tree/main/Repair)
 - [Event_Viewer](https://github.com/mohsenet/windows/tree/main/Event_Viewer)
 - [powershell](https://github.com/mohsenet/windows/tree/main/powershell)
+- [Other](https://github.com/mohsenet/windows/tree/main/other)
 
 If you can find useful git command here, I will glad about that.
